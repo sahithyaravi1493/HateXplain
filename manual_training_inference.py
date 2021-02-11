@@ -409,9 +409,9 @@ def train_model(params,device):
         print('best_val_recall',best_val_recall)
         print('best_test_recall',best_test_recall)
         
-    del model
-    torch.cuda.empty_cache()
-    return 1
+#     del model
+#     torch.cuda.empty_cache()
+    return model
 
 
 
